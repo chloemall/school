@@ -1,0 +1,78 @@
+.pdf-container {
+    padding: 20px;
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #logo {
+    margin-top: 10px;
+  }
+  
+  .logo-image {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .title {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .info-row {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .fee-table {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .pdf-container {
+      padding: 10px;
+    }
+  
+    .content-container {
+      margin-top: 10px;
+    }
+  
+    .title {
+      font-size: 18px;
+      margin-top: 15px;
+    }
+  
+    .info-row {
+      margin-top: 15px;
+    }
+  
+    .fee-table {
+      margin-top: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo-image {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .title {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+  
+    .info-row {
+      margin-top: 10px;
+    }
+  
+    .fee-table {
+      margin-top: 10px;
+    }
+  }
+  

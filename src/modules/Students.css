@@ -1,0 +1,46 @@
+/* Students.css */
+.students {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header-students {
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .title {
+    margin: 0;
+  }
+  
+  .container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  .create-button {
+    background-color: green;
+    margin-top: 10px;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media screen and (max-width: 600px) {
+    /* Styles for phones */
+    .title {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for tablets */
+    .title {
+      font-size: 18px;
+    }
+  }
+  
+  /* You can add more media queries for larger screens if needed */
+  
